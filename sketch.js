@@ -30,9 +30,14 @@ function setup() {
 
   puzzles = createButton('Puzzles');
   puzzles.position(550, 380);
+  puzzles.style('background-color',"lightYellow")
+  puzzles.style('border-radius','25px')
+
 
   funAndGames= createButton('Fun And Games');
   funAndGames.position(530, 430);
+  funAndGames.style('background-color',"lightYellow")
+  funAndGames.style('border-radius','25px')
   
   
 
